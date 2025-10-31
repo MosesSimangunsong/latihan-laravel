@@ -12,7 +12,7 @@ class AuthController extends Controller
             return redirect()->route('app.home');
         }
 
-        return view('pages.auth.register');
+        return view('pages.app.register');
     }
 
     public function login()
